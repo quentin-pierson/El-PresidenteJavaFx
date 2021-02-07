@@ -6,7 +6,7 @@ public class Faction {
     private NationType nationType;
     private int supporter;
 
-    Faction(String name, int satisfaction, NationType nationType, int supporter) {
+    public Faction(String name, int satisfaction, NationType nationType, int supporter) {
         this.name = name;
         this.satisfaction = satisfaction;
         this.nationType = nationType;

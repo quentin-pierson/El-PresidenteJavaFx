@@ -1,7 +1,7 @@
 package com.esgi.models.Calamities;
 
 public class CalamityAutumn extends Calamity {
-    CalamityAutumn(String name, String description) {
+    public CalamityAutumn(String name, String description) {
         super(name, description);
     }
     @Override
