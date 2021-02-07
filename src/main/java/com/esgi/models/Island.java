@@ -69,12 +69,13 @@ public class Island {
         return season;
     }
 
-    public void addSeason() {
+    public int addSeason() {
         this.season+=1;
         if(this.season == 4){
             this.season = 0;
             score ++;
         }
+        return season;
     }
 
     public int getDifficulty() {

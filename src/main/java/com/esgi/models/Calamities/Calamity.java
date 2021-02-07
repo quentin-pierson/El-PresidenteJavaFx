@@ -22,5 +22,9 @@ public class Calamity {
         private String getDescription(){
             return description;
         }
+
+        public Calamity isSeason(SeasonType seasonType){
+            return this;
+        }
     }
 
